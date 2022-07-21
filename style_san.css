@@ -1,0 +1,26 @@
+body {
+  background: url(img/bg_san.jpg) no-repeat;
+  background-size: 100%;
+}
+.home {
+	color: 660099;
+	font-weight: bold;
+	text-decoration: none;	/* Убираем подчеркивание */
+	outline: none; /* Убираем контур вокруг ссылки */
+	background-color: #eeeee8; /* Цвет фона */
+	padding: 1em 2em; /* Отступ от текста до рамки */
+	border-radius: 10px;
+	position: fixed;
+	right: 91%;
+	bottom: 90%;
+	}
+a.home:active {
+	background-color: #eeeee8; /* Цвет кнопки при нажатии */
+	}
+.table_san {
+	margin: 0% 10% 10% 10%;
+	border: 5px solid grey; 
+	width: 1150px; 
+	height: 400px;
+	border-radius: 10px;
+	}
